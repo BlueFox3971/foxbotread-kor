@@ -1,0 +1,4 @@
+    embed = discord.Embed(title="풀꽃", description="나태주", color=0x0048ba)
+    embed.add_field(name="본문", value='자세히 보아야 사랑스럽다 \n 오래 보아야 사랑스럽다 \n 너도 그렇다', inline=False)
+    embed.set_footer(text="시집 〈종려나무〉 (2009) \npoem code: 2\nlevel 2")
+    await ctx.send(embed=embed)

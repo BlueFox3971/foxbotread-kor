@@ -1,0 +1,4 @@
+    embed = discord.Embed(title="진달래꽃", description="김소월", color=0x0048ba)
+    embed.add_field(name="본문", value='나 보기가 역겨워\n가실 때에는\n말없이 고이 보내드리오리다.\n\n영변(寧邊)에 약산(藥山)\n진달래꽃\n아름따다 가실 길에 뿌리오리다.\n\n가시는 걸음 걸음\n놓인 그 꽃을\n사뿐히 즈려밟고 가시옵소서.\n\n나 보기가 역겨워\n가실 때에는\n죽어도 아니 눈물 흘리오리다.', inline=False)
+    embed.set_footer(text="시집 〈진달래꽃〉 (1925) \npoem code: 1\nlevel 6")
+    await ctx.send(embed=embed)

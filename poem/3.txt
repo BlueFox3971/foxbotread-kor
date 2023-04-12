@@ -1,0 +1,4 @@
+    embed = discord.Embed(title="사슴", description="윤곤강", color=0x0048ba)
+    embed.add_field(name="본문", value='먼 곳에서 오는 \n 피리의 가락처럼 \n 사슴이 운다 \n 밤 \n\n 이미 잃어진 옛날의 고운 그리움처럼 \n 그 소리 \n 꼬리를 물고 예는 곳… \n\n 아으 생각하면\n 나의 전생은\n 사슴도 벌레도 물고기도\n 꽃도 별도 구름도 아니어라\n\n', inline=False)
+    embed.set_footer(text="시집 〈동물 시집〉 (1939) \npoem code: 3\nlevel 2")
+    await ctx.send(embed=embed)
